@@ -4,6 +4,9 @@
 
 </div>
 
+[demo.webm](https://github.com/jonas-holanda/gestor-de-tarefas-laravel/assets/138180385/4f3b3588-61c2-4183-a1c6-a32af4fb5aed)
+
+
 **O projeto foi feito seguindo o passo-a-passo da criação do mesmo, no curso Desenvolvimento Web Compacto e Completo de João Ribeiro na Udemy, no módulo de Laravel do curso.**
 
 **Ao longo do desenvolvimento do sistema, notei um erro na parte das views de editar e excluir task. Notei que estavam sendo apresentadas as tasks que haviam sido excluídas, pois estava faltando o termo `->whereNull('deleted_at')` nessas chamadas das tasks.**
